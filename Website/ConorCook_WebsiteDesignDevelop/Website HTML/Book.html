@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content ="width=device-width", initial-scale = "1.0">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>Snow Denn Lodge | Booking</title>
+</head>
+<body>
+	<nav id="navigation">
+		<a class="pageLinks" href="index.html"><button class="navBtns" id="homeBtn" type = "button">Home</button></a>
+		<a class="pageLinks" href="Review.html"><button class="navBtns" id="reviewBtn1" type = "button">Review</button></a>
+		<a class="pageLinks" href="Book.html"><button class="navBtns" id="bookBtn1" type = "button">Book</button></a>
+		<a class="pageLinks" href="Blog.html"><button class="navBtns" id="blogBtn" type = "button">Blog</button></a>
+    </nav>
+    <main>
+		<form id="bookingPage">
+			<div id="names">
+				What is your name <input id="bookName1" type="text" placeholder="Firstname">
+				<input id="bookName2" type="text" placeholder="Lastname">
+			</div>
+			<div id="checkInBook">
+				When would you<br>like to check in <input id="bookCheckIn" type="date" placeholder="Enter date">
+			</div>
+			<div id="checkOutBook">
+				When would you<br>like to check out <input id="bookCheckOut" type="date" placeholder="Enter date">
+			</div>
+			<div id="numPeople">
+				How many people<input id="bookPeople" type="number" placeholder="People">
+			</div>
+			<p id="roomsLike">What room(s) would you like:</p>
+			<!-- Rooms -->
+			<div>
+				<div id="Details">
+					<p>Room<br>Details<br>Below</p>
+					<p id="arrow">&#8595</p>
+				</div>
+				<div id="KingTwinBath">
+					Super King or Twin Room<br>with an Ensuite
+					<div id="KingCheck">Super King<input type="checkbox" id="roomCheck1K"class="checkBoxes"></div>
+					<div id="TwinCheck">Twin<input type="checkbox" id="roomCheck1T" class="checkBoxes"></div>
+				</div>
+				<div id="Family">
+					Family Room<input type="checkbox" id="roomCheck2" class="checkBoxes">
+				</div>
+				<div id="FamilyBath">
+					Family Room<br>with an Ensuite<input type="checkbox" id="roomCheck3" class="checkBoxes">
+				</div>
+				<div id="DoubleBunk">
+					Double with<br>Overhead Bunk<input type="checkbox" id="roomCheck4" class="checkBoxes">
+				</div>
+				<div id="SKingTwinQueen">
+					Super King,<br>Twin Room or Queen
+					<div id="KingCheck5">Super King<input type="checkbox" id="roomCheck5K"class="checkBoxes"></div>
+					<div id="TwinCheck5">Twin<input type="checkbox" id="roomCheck5T" class="checkBoxes"></div>
+					<div id="QueenCheck">Queen<input type="checkbox" id="roomCheck5Q" class="checkBoxes"></div>
+				</div>
+				<div id="TwinBunkDorm">
+					Twin Bunk<br>& Dorm rooms<input type="checkbox" id="roomCheck6" class="checkBoxes">
+				</div>
+				<div>
+					<p id="prices1">$109 per night<br>Accommodates 2 Guests total</p>
+					<p id="prices2">$99 for 2 people<br>$114 for 3 people<br>$129 for 4 people<br>Accommodates 4 Guests total</p>
+					<p id="prices3">$105 for 2<br>$125 for 3<br>Accommodates 2 Guests total </p>
+					<p id="prices4">$89 for 2 people<br>$109 for 3 people<br>Accommodates 3 Guests Total</p>
+					<p id="prices5">$99 per night<br>Accommodates 2 Guests Total</p>
+					<p id="prices6">$43 per person</p>
+				</div>
+				<div>
+					<img id="room1Image" class="roomImages" src="images/Rooms/room.jpg">
+					<img id="room2Image" class="roomImages" src="images/Rooms/room2.jpg">
+					<img id="room3Image" class="roomImages" src="images/Rooms/room3.jpg">
+					<img id="room4Image" class="roomImages" src="images/Rooms/room4.jpg">
+					<img id="room5Image" class="roomImages" src="images/Rooms/room5.jpg">
+					<img id="room6Image" class="roomImages" src="images/Rooms/room6.jpg">
+				</div>
+				<div id="Describeroom">
+					Describe the details you need in your room(s)<input type="text" id="roomNeeds">
+				</div>
+			</div>
+			<button id="bookBtnB" type="submit" onclick="bookPopUp()">Book</button>
+		</form>
+    </main>
+	<script src="interaction.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content ="width=device-width", initial-scale = "1.0">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>Snow Denn Lodge | Blog</title>
+</head>
+<body>
+	<nav id="navigation">
+		<a class="pageLinks" href="index.html"><button class="navBtns" id="homeBtn" type = "button">Home</button></a>
+		<a class="pageLinks" href="Review.html"><button class="navBtns" id="reviewBtn1" type = "button">Review</button></a>
+		<a class="pageLinks" href="Book.html"><button class="navBtns" id="bookBtn1" type = "button">Book</button></a>
+		<a class="pageLinks" href="Blog.html"><button class="navBtns" id="blogBtn" type = "button">Blog</button></a>
+    </nav>
+	<main>
+		<div id="subscribe">
+			<form>
+				<div id="emailAll">
+					Subscribe to<br>receive updates<input type="email" id="emailBox" placeholder="email">
+				</div>
+				<button id="submitbtnB" type="submit" onclick="submitPopUp()">Subscribe</button>
+			</form>
+			<div id="modalB">
+				<span id="close">&times;</span>
+				<p>You will now receive emails of when we add new blog posts</p>
+			</div>
+		</div>
+		<div id="post1">
+			<img src="images/Blog/Logo.png" id="logoBlog">
+			<h2 id="post1h2">
+				27 / 3 / 2022<br>Website Update
+			</h2>
+			<p id="post1p">
+				We have some exciting news. Out website is getting an update!<br><br>
+				Thanks to the help of a teenager named Conor Cook at Yoobee Colledge in Wellington, our website is getting a complete remodel. Our previous website has been out of date for a very, very long time.<br>
+				Conor shall continue to make updates to the website so if you have any feedback there shall be a box in the office to make an anonymous comment, or you can write your feedback in the all new review tab on our website.<br><br>
+				Thank you very much for your feedback and we hope you like the new website.<br><br>
+				- Laura & Tim
+			</p>
+		</div>
+		<div id="post2">
+			<img src="images/Blog/Logo.png" id="logoBlog">
+			<h2 id="post2h2">3 / 4 / 2022<br>Foothills walking festival postponed</h2>
+			<p id="post2p">
+				The Methven & Foothills walking festival has been postponed to April 2023 but that doesn't mean you cant still come visit and participate - from the Saturday 16th to the 24th April they have a few smaller events running alongside our local Scarecrow competition. So if your looking to do something new this Autumn then come stay and check it out. <br><br>
+				Also thank you all for the overwhelming positive<br>feedback on the new website. We will continue<br>to maintain and deliver updates when nessesary.<br><br>
+				- Laura & Tim
+			</p>
+			<img src="images/Blog/Foothills.jpg" id="foothillBlog">
+		</div>
+	</main>
+	<script src="interaction.js"></script>
+</body>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content ="width=device-width", initial-scale = "1.0">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>Snow Denn Lodge | Review</title>
+</head>
+<body>
+	<nav id="navigation">
+		<a class="pageLinks" href="index.html"><button class="navBtns" id="homeBtn" type = "button">Home</button></a>
+		<a class="pageLinks" href="Review.html"><button class="navBtns" id="reviewBtn1" type = "button">Review</button></a>
+		<a class="pageLinks" href="Book.html"><button class="navBtns" id="bookBtn1" type = "button">Book</button></a>
+		<a class="pageLinks" href="Blog.html"><button class="navBtns" id="blogBtn" type = "button">Blog</button></a>
+    </nav>
+    <main>
+		<div>
+			<form>
+				<div>
+					<div id="nameBox">
+						What is your name: <input type="text" id="namefield" placeholder="Name">
+					</div>
+					<div id="stayBox1">
+						When was your stay: <input type="date" id="checkInField" placeholder="Check In">
+					</div>
+					<div id="stayBox2">
+						- <input type="date" id="checkOutField" placeholder="Check Out">
+					</div>
+					<div id="howStayBox">
+						How was your stay: <input type="text" id="howField" placeholder="Describe your stay">
+					</div>
+					<button id="submitbtnR" type="submit" onclick="reviewPopUp()">Submit</button>
+				</div>
+			</form>
+		</div>
+    </main>
+	<script src="interaction.js"></script>
+</body>
+</html>
